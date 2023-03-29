@@ -668,48 +668,22 @@ $toastTitleFontWeight: 700 !default;
 $toastDetailMargin: $inlineSpacing 0 0 0 !default;
 
 //severities
-$infoMessageBg: #b3e5fc !default;
-$infoMessageBorder: solid scale-color($infoMessageBg, $lightness: -50%) !default;
-$infoMessageTextColor: scale-color(
-  $infoMessageBg,
-  $lightness: -75%
-) !default;
-$infoMessageIconColor: scale-color(
-  $infoMessageBg,
-  $lightness: -75%
-) !default;
-$successMessageBg: #c8e6c9 !default;
-$successMessageBorder: solid
-  scale-color($successMessageBg, $lightness: -50%) !default;
-$successMessageTextColor: scale-color(
-  $successMessageBg,
-  $lightness: -75%
-) !default;
-$successMessageIconColor: scale-color(
-  $successMessageBg,
-  $lightness: -75%
-) !default;
-$warningMessageBg: #ffecb3 !default;
-$warningMessageBorder: solid
-  scale-color($warningMessageBg, $lightness: -50%) !default;
-$warningMessageTextColor: scale-color(
-  $warningMessageBg,
-  $lightness: -75%
-) !default;
-$warningMessageIconColor: scale-color(
-  $warningMessageBg,
-  $lightness: -75%
-) !default;
-$errorMessageBg: #ffcdd2 !default;
-$errorMessageBorder: solid scale-color($errorMessageBg, $lightness: -50%) !default;
-$errorMessageTextColor: scale-color(
-  $errorMessageBg,
-  $lightness: -75%
-) !default;
-$errorMessageIconColor: scale-color(
-  $errorMessageBg,
-  $lightness: -75%
-) !default;
+$infoMessageBg: #2d77c2 !default;
+$infoMessageBorder: solid scale-color($infoMessageBg) !default;
+$infoMessageTextColor: scale-color(#ffffff) !default;
+$infoMessageIconColor: scale-color(#ffffff) !default;
+$successMessageBg: #009216 !default;
+$successMessageBorder: solid scale-color($successMessageBg) !default;
+$successMessageTextColor: scale-color(#ffffff) !default;
+$successMessageIconColor: scale-color(#ffffff) !default;
+$warningMessageBg: #ffc107 !default;
+$warningMessageBorder: solid scale-color($warningMessageBg) !default;
+$warningMessageTextColor: scale-color(#ffffff) !default;
+$warningMessageIconColor: scale-color(#ffffff) !default;
+$errorMessageBg: #d32f2f !default;
+$errorMessageBorder: solid scale-color($errorMessageBg) !default;
+$errorMessageTextColor: scale-color(#ffffff) !default;
+$errorMessageIconColor: scale-color(#ffffff) !default;
 
 //overlays
 $overlayContentBorder: 0 none !default;
