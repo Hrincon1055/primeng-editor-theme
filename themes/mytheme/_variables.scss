@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-$primaryColor: #2196f3 !default;
+$primaryColor: #2d77c2 !default;
 $primaryLightColor: scale-color(transparent, $lightness: 60%) !default;
 $primaryDarkColor: scale-color($primaryColor, $lightness: -10%) !default;
 $primaryDarkerColor: scale-color($primaryColor, $lightness: -20%) !default;
@@ -9,7 +9,7 @@ $highlightBg: #e3f2fd !default;
 $highlightTextColor: #495057 !default;
 
 $colors: (
-  'blue': #2196f3,
+  'blue': #2d77c2,
   'green': #4caf50,
   'yellow': #fbc02d,
   'cyan': #00bcd4,
@@ -41,7 +41,7 @@ $fontSize: 1rem !default;
 $fontWeight: normal !default;
 $textColor: $shade700 !default;
 $textSecondaryColor: $shade600 !default;
-$borderRadius: 3px !default;
+$borderRadius: 4px !default;
 $transitionDuration: 0.2s !default;
 $formElementTransition: background-color $transitionDuration,
   color $transitionDuration, border-color $transitionDuration,
@@ -54,6 +54,7 @@ $divider: 1px solid $shade300 !default;
 $inlineSpacing: 0.5rem !default;
 $disabledOpacity: 0.6 !default;
 $maskBg: rgba(0, 0, 0, 0.4) !default;
+
 $loadingIconFontSize: 2rem !default;
 $errorColor: #f44336 !default;
 
@@ -198,7 +199,7 @@ $infoButtonActiveBorderColor: scale-color(
 $infoButtonFocusShadow: 0 0 0 0.2rem
   scale-color($infoButtonBg, $lightness: 60%) !default;
 
-$successButtonBg: #689f38 !default;
+$successButtonBg: #009216 !default;
 $successButtonTextColor: #ffffff !default;
 $successButtonBorder: 1px solid $successButtonBg !default;
 $successButtonHoverBg: scale-color(
